@@ -5,7 +5,7 @@ public class Program
     static void Main(string[] args)
     {
         double a, b, c, x;
-        double discriminante;
+      
 
         Console.WriteLine("SOLUCION PARA UNA ECUACION DE LA FORMA ax + b + c");
 
