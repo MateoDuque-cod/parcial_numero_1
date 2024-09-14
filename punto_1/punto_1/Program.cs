@@ -30,8 +30,10 @@
         //PUNTO 2
 
         sueldo_completo = sueldo_base + comision_ttl + bono;
+        if (comision_ttl > 1000000)
+        { Console.Write("el valor total a pagar es de: $ " + sueldo_completo + " pesos"); }
 
-        Console.Write("el valor total a pagar es de: $ " + sueldo_completo + " pesos");
+     else   { Console.Write("el valor total a pagar es de: $ " + (sueldo_completo- bono) + " pesos"); }
         Console.WriteLine();
 
 
