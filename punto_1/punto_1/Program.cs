@@ -29,7 +29,7 @@
         Console.WriteLine();
         //PUNTO 2
 
-        sueldo_completo = sueldo_base + comision_ttl;
+        sueldo_completo = sueldo_base + comision_ttl + bono;
 
         Console.Write("el valor total a pagar es de: $ " + sueldo_completo + " pesos");
         Console.WriteLine();
